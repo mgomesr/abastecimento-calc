@@ -1,0 +1,155 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+main{
+    background-color: #02021f;
+    color: white;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 14px;
+}
+
+.logo{
+    width: 40%;
+    max-width: 300px;
+    height: 45%;
+    max-height: 300px;
+    margin-bottom: 20px;
+}
+
+.titulo{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+div{
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    margin: 2px;
+    padding: 2px;
+    padding-left: 6px;
+    width: 47%;
+    border-radius: 4px;
+}
+
+.input1{
+    margin-left: 20px;
+}
+
+.botao{
+    margin-top: 4px;
+    width: 98.6%;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.botao:hover{
+    background-color: rgb(218, 213, 213);
+}
+
+.result{
+    background-color: rgb(8, 8, 81);
+    max-width: 91.5%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    margin-top: 15px;
+    border: 1px solid #FFF;
+    user-select: none;
+}
+
+.hide{
+    display: none;
+}
+
+.result:hover{
+    transform: scale(1.06);
+}
+
+.text-result{
+    font-size: 18px;
+}
+
+span{
+    margin: 3px
+}
+
+.add{
+    right: 5px;
+    bottom: 30px;
+    position: fixed;
+}
+
+.info-img{
+    height: 30px;
+    width: 30px;
+}
+
+.text{
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+    right: -5px;
+    display: none;
+}
+
+footer{
+    background-color: #02021f;
+    height: 10%;
+    color: white;
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    font-size: 8px;
+}
+
+.add:hover .text{
+    display: inline;
+}
+
+.sobre{
+    color: white;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(8, 8, 81);
+    border: 1px solid #FFF;
+    padding-top: 3px;
+}
+
+.sobre span{
+    margin-bottom: 8px;
+    line-height: 120%;
+}
+
+
+.botao-calcular{
+    max-width: 620px;
+    padding: 24px 14px;
+    color: white;
+}

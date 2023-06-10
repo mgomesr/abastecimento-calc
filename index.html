@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link href="style.css" rel="stylesheet"/>
+        <title>Calculadora Gasolina ou Álcool</title>
+    </head>
+    <body>
+        <main>
+            <img class="logo" src="Imagens/logo.png" alt="Logo"/>
+            <h1 class="titulo">Qual a melhor opção?</h1>
+            <form onsubmit="calcular(event)">
+                <div class="div1">
+                    <label>Álcool (Preço por litro):</label>
+                    <input
+                        id="alcool"
+                        class="input1"
+                        type="number"
+                        placeholder="Digite o valor em R$..."
+                        min="1.0" step="0.01"
+                        required/>
+                </div>
+                <div class="div2">
+                    <label>Gasolina (Preço por litro):</label>
+                    <input
+                        id="gasolina"
+                        type="number"
+                        placeholder="Digite o valor em R$..."
+                        min="1.0"
+                        step="0.01"
+                        required/>
+                </div>
+                <input
+                    class="botao"
+                    type="submit"
+                    value="Calcular"/>
+            </form>
+            <section id="content-result" class="result hide">
+                <span id="text-result2" class="text-result">Compensa usar Álcool</span>
+                <span id="alcool-result" >Álcool R$ 3,90</span>
+                <span id="gasolina-result" >Gasolina R$ 6,80</span>
+            </section>
+        </main>
+        <section class="add">
+            <span class="text">Veja como é feito o cálculo </span>
+            <a href="index-2.html"> <img class="info-img" src="Imagens/info.png" alt="Como é feito o cálculo"/> </a>
+        </section>
+        
+        <footer>
+            <span>Desenvolvido por Matheus G Rodrigues (Créditos: Sujeito Programador)</span>
+        </footer>
+        <script src="scrypt.js"></script>
+    </body>
+</html>
