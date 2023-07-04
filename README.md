@@ -6,4 +6,4 @@ Essa simples calculadora irá comparar se vale a pena o abastecimento do veícul
 
 Os formatos e cores utilizados foram feitos por mim, mas a ideia do programada foi baseada no perfil SujeitoProgramador.
 
-*[Projeto Online](https://mgomesr.github.io/abastecimento-calc/index.html)
+* [Projeto Online](https://mgomesr.github.io/abastecimento-calc/index.html)
